@@ -1,0 +1,131 @@
+body{
+  background: whitesmoke;
+  font-family: tahoma;
+}
+
+h1{
+font-family: 'Dancing Script', cursive;
+  color: black;
+  text-align: center;
+  font-size: 74px;
+  letter-spacing: 10px;
+}
+#del-countdown{
+  width: 850px;
+  margin: 15% auto;
+}
+#clock span{
+  float: left;
+  text-align: center;
+  font-size: 84px;
+  margin: 0 2.5%;
+  color: red;
+  padding: 20px;
+  width: 20%;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+#clock span:nth-child(1){
+  background: floralwhite;
+}
+#clock span:nth-child(2){
+  background: floralwhite;
+  background: ;
+}
+#clock span:nth-child(3){
+  background: floralwhite;
+  background: ;
+}
+#clock span:nth-child(4){
+  background: floralwhite;
+  background: ;
+}
+#clock:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+#units span{
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin-top: 30px;
+  color: #ddd;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px rgba(10,10,10, 0.7);
+}
+
+/*.container{
+width:300px; 
+height:300px
+}
+*/
+div#container {
+  height:500px;
+  width:500px;
+}
+
+div.a {
+width: 50px;
+height:50px;
+position:fixed;
+}
+
+div.b {
+width: 50px;
+height:50px;
+position:fixed;
+    
+}
+div.c {
+width: 50px;
+height:50px;
+position:fixed;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*span.turn{
+  animation: turn 0.7s ease forwards;
+}
+@keyframes turn{
+  0%{transform: rotateX(0deg)}
+  100%{transform: rotateX(360deg)}
+}*/
+
+
+#weather {
+  margin-top:100px;
+
+}
+#temp {
+  font-weight: bold;
+    font-family: tahoma;
+
+}
+#temp:hover {
+  background: yellow;
+  cursor: pointer;
+    font-family: tahoma;
+
+}
+#wind {
+  font-style: italic;
+    font-family: tahoma;
+
+}
